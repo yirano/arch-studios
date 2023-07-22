@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+}
+
+*, html, body {
+  box-sizing: border-box;
+}
+
+button {
+  @apply text-[18px] font-bold text-white bg-very-dark-blue pt-[25px] pr-[32px] pl-[34px] pb-[22px];
+
+  &:hover {
+    @apply cursor-pointer bg-dark-grey;
+  }
+
+  &:active {
+    @apply cursor-pointer bg-light-grey;
+  }
+}
+
+p {
+  @apply text-body;
+}
