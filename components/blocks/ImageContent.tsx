@@ -4,8 +4,8 @@ import Button from '../common/Button';
 
 export default function ImageContent() {
   return (
-    <div className="py-[100px] h-[560px] bg-black">
-      <div>
+    <div className="py-[100px] h-[560px] ">
+      <div className='h-full bg-black'>
         <Heading size="lg" type="h2" color="secondary">
           Image Content
         </Heading>
