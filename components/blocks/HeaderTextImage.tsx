@@ -1,9 +1,9 @@
-import React from 'react';
 import Image from "next/image";
+import ComponentWrapper from "../common/ComponentWrapper";
 
 export default function HeaderTextImage() {
   return (
-    <div className="relative py-[100px] flex">
+    <ComponentWrapper customClass="relative flex">
       <div className="flex flex-wrap w-full">
         <div className="w-full">
           <Image alt="Skyline" src="/skyline-wall.png" className=" absolute right-0 z-[-1] mt-[87px]" width={350} height={568} />
@@ -24,6 +24,6 @@ export default function HeaderTextImage() {
       </div>
       <div>
       </div>
-    </div>
+    </ComponentWrapper>
   );
 }
